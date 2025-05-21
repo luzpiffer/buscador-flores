@@ -2,7 +2,7 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #e6f7e6; /* Un verde muy pálido */
+    background-color: #e6f7e6; 
     color: #333;
     display: flex;
     flex-direction: column;
@@ -10,25 +10,25 @@ body {
     min-height: 100vh;
     padding-top: 2em;
     box-sizing: border-box;
-    transition: background-color 0.3s ease; /* Transición para el fondo si lo cambias en el futuro */
+    transition: background-color 0.3s ease; 
 }
 
-header { /* Estilos para el nuevo header */
+header { 
     width: 100%;
     text-align: center;
     padding: 1.5em 0;
-    background: linear-gradient(to bottom, rgba(230, 247, 230, 0.5), transparent); /* Degradado suave */
-    border-radius: 0 0 10px 10px; /* Suaviza la parte inferior */
-    margin-bottom: 1em; /* Espacio entre el encabezado y la búsqueda */
+    background: linear-gradient(to bottom, rgba(230, 247, 230, 0.5), transparent); 
+    border-radius: 0 0 10px 10px; 
+    margin-bottom: 1em; 
 }
 
-header h1 { /* Estilos para el h1 dentro del header */
+header h1 { 
     color: #2e7d32;
-    margin-bottom: 0; /* Reducido el margen inferior del título */
+    margin-bottom: 0; 
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
 }
 
-.search-container { /* Estilos para el contenedor de la búsqueda (opcional para icono) */
+.search-container { 
     position: relative;
     width: 80%;
     max-width: 400px;
@@ -45,7 +45,7 @@ header h1 { /* Estilos para el h1 dentro del header */
     background-color: #fff;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
     transition: border-color 0.3s ease;
-    padding-left: 1em; /* Espacio para el icono si lo añades dentro */
+    padding-left: 1em; 
 }
 
 .search-container input#search:focus {
@@ -65,12 +65,12 @@ header h1 { /* Estilos para el h1 dentro del header */
     width: 90%;
     max-width: 1200px;
     box-sizing: border-box;
-    padding: 1em; /* Añadido padding al contenedor */
+    padding: 1em; 
     padding-bottom: 2em;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05); /* Sombra suave */
-    border-radius: 10px; /* Bordes redondeados */
-    background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco ligeramente transparente */
-    transition: opacity 0.3s ease-in-out; /* Transición para la carga */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05); 
+    border-radius: 10px; 
+    background-color: rgba(255, 255, 255, 0.8); 
+    transition: opacity 0.3s ease-in-out; 
 }
 
 .flower {
@@ -93,7 +93,7 @@ header h1 { /* Estilos para el h1 dentro del header */
     height: 200px;
     object-fit: cover;
     display: block;
-    margin-bottom: 0; /* Aseguramos que no haya margen inferior */
+    margin-bottom: 0; 
 }
 
 .flower h3 {
@@ -101,7 +101,7 @@ header h1 { /* Estilos para el h1 dentro del header */
     text-align: center;
     color: #388e3c;
     margin-top: 0;
-    flex-grow: 1; /* El título ocupa el espacio vertical disponible */
+    flex-grow: 1; 
     font-size: 1.2em;
 }
 
@@ -132,8 +132,8 @@ header h1 { /* Estilos para el h1 dentro del header */
     max-width: 800px;
     box-sizing: border-box;
     text-align: center;
-    opacity: 0; /* Inicialmente oculto */
-    transition: opacity 0.3s ease-in-out; /* Transición para mostrar los detalles */
+    opacity: 0; 
+    transition: opacity 0.3s ease-in-out; 
 }
 
 .flower-details-container h2 {
@@ -206,7 +206,7 @@ header h1 { /* Estilos para el h1 dentro del header */
     background-color: #4caf50;
 }
 
-footer { /* Estilos para el nuevo footer */
+footer { 
     text-align: center;
     padding: 1em 0;
     color: #777;
