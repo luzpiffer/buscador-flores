@@ -73,10 +73,10 @@ function showFlowerDetails(data) {
 
 searchInput.addEventListener("input", () => {
     const value = searchInput.value.trim();
-    // Evitar búsquedas vacías o solo con espacios
-    if (value) {
+        if (value) {
         getFlowers(value);
-    } else {
+    } 
+        else {
         getFlowers();
     }
 });
